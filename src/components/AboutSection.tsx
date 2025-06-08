@@ -48,14 +48,12 @@ const AboutSection = () => {
           <div className="flex justify-center lg:justify-end">
             <Card className="card-hover bg-card border-border">
               <CardContent className="p-8">
-                <div className="w-64 h-80 bg-gradient-to-br from-primary/20 to-primary/5 rounded-lg flex items-center justify-center">
-                  <div className="text-center">
-                    <div className="w-24 h-24 bg-primary/20 rounded-full mx-auto mb-4 flex items-center justify-center">
-                      <span className="text-2xl font-bold text-primary">YN</span>
-                    </div>
-                    <p className="text-muted-foreground">Professional Photo</p>
-                    <p className="text-xs text-muted-foreground mt-2">Replace with your photo</p>
-                  </div>
+                <div className="w-64 h-80 rounded-lg overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/62d9f5ca-9e2a-455b-af82-094595526470.png" 
+                    alt="Chippada Prasanth Sai - Professional Photo"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </CardContent>
             </Card>
